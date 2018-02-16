@@ -137,7 +137,7 @@
                 <div class="col-12 col-md-4">
                     <i class="fas fa-shield-alt wow bounceIn"></i>
                     <h3>100% REFUND OF MONEY</h3>
-                    <p>You can return your items to an Sport Store within 14 calendar days of receiving your order.</p>
+                    <p>You can return your items to Nutrition Store within 14 calendar days of receiving your order.</p>
                 </div>
                 <div class="col-12 col-md-4">
                     <i class="fas fa-home wow bounceIn"></i>
@@ -218,7 +218,7 @@
                     </div>
 
                     <div class="col-12">
-                        <div class="copywrite">© 2017 Sports Store</div>
+                        <div class="copywrite">© 2018 Nutrition Store</div>
                     </div>
                         </div>
                     </div>

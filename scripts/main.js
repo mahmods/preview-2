@@ -2,8 +2,6 @@ const nav = $('#navbar-example');
 const navTop = nav.height();
 
 function stickyNavigation() {
-  console.log('navTop = ' + navTop);
-  console.log('scrollY = ' + window.scrollY);
 
   if (window.scrollY >= navTop) {
     // nav offsetHeight = height of nav
