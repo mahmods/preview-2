@@ -1,3 +1,21 @@
+const nav = $('#navbar-example');
+const navTop = nav.height();
+
+function stickyNavigation() {
+  console.log('navTop = ' + navTop);
+  console.log('scrollY = ' + window.scrollY);
+
+  if (window.scrollY >= navTop) {
+    // nav offsetHeight = height of nav
+    document.body.style.paddingTop = navTop + 'px';
+    nav.addClass('fixed-nav');
+  } else {
+    document.body.style.paddingTop = 0;
+    nav.removeClass('fixed-nav');
+  }
+}
+
+window.addEventListener('scroll', stickyNavigation);
 $(document).ready(function () {
     var wow = new WOW().init();
     var feed = new Instafeed({

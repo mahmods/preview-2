@@ -17,13 +17,13 @@
     <script src="./scripts/bootstrap.min.js"></script>
     <script src="./scripts/slick.min.js"></script>
     <script src="./scripts/instafeed.min.js"></script>
-    <script src="./scripts/main.js"></script>
+    
 </head>
 <body>
     <header class="header">
-        <div class="top-nav">
+        <div id="navbar-example" class="top-nav navbar-fixed-top">
             <div class="brand">
-                <span>N</span>utrition
+                Nutrition
             </div>
 
             <div class="navbar navbar-expand-md">
@@ -55,7 +55,7 @@
 
         </div>
         <div class="bottom-nav">
-                FREE WORLDWIDE SHIPPING ON ALL ORDERS OVER £50 – 100 DAY RETURNS + EXCHANGES                
+            Free Shipping and Samples with ALL ORDERS - 0345 302 4762
         </div>
         <div class="header-slider">
             <div class="slide">
@@ -130,17 +130,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-4">
-                    <i class="fas fa-truck"></i>
+                    <i class="fas fa-truck wow bounceIn"></i>
                     <h3>FAST DELIVERY</h3>
                     <p>Free delivery when paying by card or when ordering from $ 350.</p>
                 </div>
                 <div class="col-12 col-md-4">
-                    <i class="fas fa-shield-alt"></i>
+                    <i class="fas fa-shield-alt wow bounceIn"></i>
                     <h3>100% REFUND OF MONEY</h3>
                     <p>You can return your items to an Sport Store within 14 calendar days of receiving your order.</p>
                 </div>
                 <div class="col-12 col-md-4">
-                    <i class="fas fa-home"></i>
+                    <i class="fas fa-home wow bounceIn"></i>
                     <h3>QUALITY INSPECTIONS</h3>
                     <p>You can check the quality of things right in front of the courier and redeem the order.</p>
                 </div>
@@ -226,5 +226,6 @@
             </div>
         </div>
     </footer>
+    <script src="./scripts/main.js"></script>
 </body>
 </html>
