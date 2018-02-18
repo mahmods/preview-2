@@ -14,7 +14,19 @@ function stickyNavigation() {
 }
 
 window.addEventListener('scroll', stickyNavigation);
+
 $(document).ready(function () {
+    $(".dropdown").each(function() {
+        var self = this;
+        $(this).siblings("a").mouseenter(function() {
+            $(self).show();
+            $(self).addClass("dropdown-toggled");
+        });
+        $(this).siblings("a").mouseleave(function() {
+          $(self).removeClass("dropdown-toggled");
+          $(self).hide();
+        });
+    });
     var wow = new WOW().init();
     var feed = new Instafeed({
         accessToken: '548157251.1677ed0.4a647ef9795c44d2906633ba2915ca00',
